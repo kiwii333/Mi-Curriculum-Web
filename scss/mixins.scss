@@ -1,0 +1,11 @@
+@mixin grid($grid-columns,$grid-rows,$padding,$gap){
+    display: grid;
+    grid-template-columns: $grid-columns;
+    grid-template-rows: $grid-rows;
+    padding: $padding;
+    gap: $gap;
+}
+
+@mixin str_habform{
+    @include grid()
+}
